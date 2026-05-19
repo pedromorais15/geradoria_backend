@@ -38,7 +38,6 @@ def generate_recipe(ingredientes):
     )
     return response.text
 
-
 # app.py (Parte 3)
 
 @app.route("/")
