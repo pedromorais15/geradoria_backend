@@ -22,7 +22,7 @@ CORS(app)
 # app.py (Parte 2)
 
 def generate_recipe(ingredientes):
-    # Junta os ingredientes enviados em uma única linha de texto
+    # Junta os ingredientes enviados em uma única linha de texto.
     lista_ingredientes = ", ".join(ingredientes)
     conteudo_prompt = f"Crie uma receita utilizando obrigatoriamente estes ingredientes: {lista_ingredientes}."
     
