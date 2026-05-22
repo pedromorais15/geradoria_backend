@@ -28,7 +28,7 @@ def generate_recipe(ingredientes):
     
     # Faz a chamada para o modelo pedindo uma resposta estruturada em JSON
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.5-flash",
         contents=conteudo_prompt,
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_INSTRUCTION,
